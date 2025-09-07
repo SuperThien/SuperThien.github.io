@@ -1,0 +1,134 @@
+.register-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 550px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  background-color: rgb(232, 229, 229);
+}
+
+.register-title h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.register-title h3 {
+  margin-top: 5px;
+  color: #666;
+  font-weight: normal;
+}
+
+.register-form {
+  margin-top: 20px;
+}
+
+.register-form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.register-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 10px;
+}
+
+.register-input {
+  width: 240px;
+  height: 40px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.register-select {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.register-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.register-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.half-width {
+  width: calc(50% - 5px);
+  gap: 10px;
+}
+
+.gender-box {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.gender-box input {
+  margin-right: 10px;
+}
+
+.register-note {
+  font-size: 13px;
+  color: #555;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.register-button {
+  background: orange;
+  border: 1px solid orange;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.register-button:hover {
+  background: #0056b3;
+}
+
+.register-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
